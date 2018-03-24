@@ -16,7 +16,6 @@ import butterknife.BindView;
  * 作者： litongge
  * 时间：  2017/2/26 11:51
  * 邮箱；ltg263@126.com
- * 测试提交
  */
 public class MainActivity extends BaseActivity {
 
