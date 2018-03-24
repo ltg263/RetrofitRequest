@@ -6,11 +6,9 @@ import android.app.Application;
 import java.util.Stack;
 
 /**
- * 文件名：iwork99.juanct.com.iwork99
  * 描    述：Application
  * 作    者：litongge
  * 时    间：2016/7/28 17:19
- * 版    权： 南海云
  */
 public class BaseApp extends Application {
     private static Stack<Activity> activityStack;
