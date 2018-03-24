@@ -31,7 +31,7 @@ public class RetrofitUtil {
         //初始化
         mRetrofit = new Retrofit
                 .Builder()
-                .baseUrl("http://v.juhe.cn/")
+                .baseUrl("http://v.juhe.cn/")//使用的聚合API接口
                 .addCallAdapterFactory(RxJavaCallAdapterFactory.create()) // 使用RxJava作为回调适配器
                 .addConverterFactory(ScalarsConverterFactory.create()) // 使用String作为数据转换器
                 .addConverterFactory(GsonConverterFactory.create()) // 使用Gson作为数据转换器
