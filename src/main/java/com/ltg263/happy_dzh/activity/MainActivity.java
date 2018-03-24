@@ -38,6 +38,8 @@ public class MainActivity extends BaseActivity {
                         .url("http://v.juhe.cn/wepiao/query")
                         .addQuery("key", "b9028c6563dcb2cf68efeac77395341a")
                         .build();
+                //网络请求方式 默认为POST
+                params.setMethod(RxHttpParams.HttpMethod.GET);
                 RetrofitUtil.request(params, String.class, new RetrofitUtil.HttpCallBackImpl<String>() {
                     @Override
                     public void onCompleted(String contactsBean) {
